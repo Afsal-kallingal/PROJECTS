@@ -1,0 +1,11 @@
+.h11{
+    font-style: oblique;
+    font-size: 200%;
+    color: aliceblue;
+}
+.bodys{
+    background-image: url(./back.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

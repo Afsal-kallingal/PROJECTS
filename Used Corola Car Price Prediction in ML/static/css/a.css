@@ -1,0 +1,29 @@
+.b{
+    border: 2px solid black;
+    height: 30px;
+    width: 300px;
+}
+.a{
+    background-color: black;
+
+}   
+.c{
+    border: 10px solid rgb(248, 247, 247);
+    min-width: 60px;
+
+
+}
+.d{
+    size: 200%;
+    font-style: oblique;
+    color: brown;
+}
+.div1{
+    min-height: 400px;
+    width: 900px;
+    background-color: azure;
+    text-align: center;
+    margin-left: 300px;
+    background-color: azure;
+    
+}

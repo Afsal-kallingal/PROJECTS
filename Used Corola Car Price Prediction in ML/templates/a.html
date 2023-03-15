@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/a.css">
+    <title>house price</title>
+</head>
+
+<body class="a">
+    <form action="{{url_for('predict')}}" method="post" class="form">
+
+        <div class="div1">
+            <center>
+                <h1 class="d">Corolla Car Price Prediction</h1>
+            </center>
+            <input class="b" type="text" placeholder="Enter the age" name="a1"><br><br>
+            <input class="b" type="text" placeholder="Enter the KM you Travel" name="b1"><br><br>
+            <select name="c1" id="">
+                <option value="">Fuel type</option>
+                <option value="1">Diesel</option>
+                <option value="0">petrol</option></select><br><br>
+            <input type="text" placeholder="Hp" name="d1"> <br><br>
+            <select name="e1" id="">
+                <option value="">The color is Met black</option>
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select><br><br>
+            <select name="f1" id="">
+                <option value="">Select The Type</option>
+                <option value="1">Automatic</option>
+                <option value="0">Manual</option>
+            </select><br><br>
+            <input class="b" type="text" placeholder="Enter the CC " name="g1"><br><br>
+            <input class="b" type="text" placeholder="How much Doors" name="h1"><br><br>
+            <input class="b" type="text" placeholder="Enter the weight" name="i1"><br><br>
+
+            <input class="c" type="submit" value="Submit">
+
+
+    </form>
+
+    </div>
+
+
+</body>
+
+</body>
+
+</html>

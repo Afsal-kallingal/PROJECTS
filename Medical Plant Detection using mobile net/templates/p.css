@@ -1,0 +1,23 @@
+.body1{
+    background-image: url(../templates/back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body1 h2{
+    text-align: center;
+
+    
+}
+#area{
+    text-align: center;
+    margin-left: 14cm;
+
+}
+
+.body2 h2{
+    text-align: center;
+    margin-top: 6cm;
+}
+.body2{
+    background-color: steelblue;
+}
